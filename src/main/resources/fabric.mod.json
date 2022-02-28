@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "hudmod",
+  "version": "${version}",
+  "name": "Hud Mod",
+  "description": "almazi pokazivat",
+  "authors": [
+    "Just_S"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/hudmod/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.just_s.hudmod.InventoryHUDMod"
+    ]
+  },
+  "mixins": [
+    "hudmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
