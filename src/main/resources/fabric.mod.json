@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "hudmod",
   "version": "${version}",
-  "name": "Hud Mod",
-  "description": "almazi pokazivat",
+  "name": "Diamond Count Mod",
+  "description": "Shows amount of diamonds in your inventory",
   "authors": [
     "Just_S"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://justs.fun/",
+    "sources": "https://github.com/JustEndy/DiamondCountMod"
   },
 
   "license": "CC0-1.0",
@@ -18,7 +18,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "net.just_s.hudmod.InventoryHUDMod"
+      "net.just_s.hudmod.DiamondCountMod"
     ]
   },
   "mixins": [

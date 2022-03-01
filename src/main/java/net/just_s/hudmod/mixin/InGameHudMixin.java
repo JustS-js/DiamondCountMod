@@ -94,7 +94,7 @@ public abstract class InGameHudMixin extends DrawableHelper {
 
             ItemStack stack = new ItemStack(Item.byRawId(686), count);
             //stack.setCount(Item.getRawId(playerEntity.getInventory().main.get(0).getItem()));
-            this.renderHotbarItem(x, y, float_1, playerEntity, stack, 1);
+            this.renderHotbarItem(x, 0, float_1, playerEntity, stack, 1);
         }
     }
 
